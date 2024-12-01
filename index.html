@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реклама Telegram Бота</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Привітання</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#comments">Коментарі</a></li>
+                <li><a href="https://t.me/NOT_MAIN_HER0" target="_blank">Канал</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Привітання -->
+    <section id="welcome">
+        <h1>Ласкаво просимо!</h1>
+        <p>
+            Вітаємо вас у світі нових можливостей! 🤖 <br>
+            Наш Telegram бот — це ваш незамінний помічник:
+        </p>
+        <ul>
+            <li>🗨️ <strong>Спілкуйтесь по душам</strong>: бот завжди готовий підтримати розмову, вислухати ваші думки або просто підняти настрій.</li>
+            <li>🛠️ <strong>Робота адміністратора</strong>: автоматизуйте рутину — бот може модерувати чати, слідкувати за порядком і виконувати організаційні завдання.</li>
+            <li>📝 <strong>Створення та редагування профілю</strong>: налаштуйте свій унікальний профіль, додавайте інформацію та змінюйте її в будь-який момент.</li>
+        </ul>
+        <p>
+            Це ваш віртуальний друг, професійний адміністратор і персоналізований інструмент в одному! 🌟
+        </p>
+        <div class="info-cards">
+            <div class="card">
+                <h3>Швидкість</h3>
+                <p>Бот відповідає миттєво на всі запити користувачів.</p>
+            </div>
+            <div class="card">
+                <h3>Зручність</h3>
+                <p>Інтерфейс і команди створені для максимальної простоти.</p>
+            </div>
+            <div class="card">
+                <h3>Інновації</h3>
+                <p>Інтеграція сучасних технологій для твого комфорту.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <h2>Галерея</h2>
+        <div class="slider">
+            <div class="slider-container">
+                <img src="Images/1.png" alt="Фото 1" class="slider-item">
+                <img src="Images/2.png" alt="Фото 2" class="slider-item">
+                <img src="Images/3.png" alt="Фото 3" class="slider-item">
+                <img src="Images/4.png" alt="Фото 4" class="slider-item">
+                <img src="Images/5.png" alt="Фото 5" class="slider-item">
+            </div>
+        </div>
+        <div id="image-modal" class="hidden">
+            <div class="modal-content">
+                <button class="nav-btn left-btn" style="left: 0;">&larr;</button>
+                <img src="" alt="Full View" id="modal-image">
+                <button class="nav-btn right-btn" style="right: 0;">&rarr;</button>
+            </div>
+        </div>        
+        <button class="prev-btn">←</button>
+        <button class="next-btn">→</button>
+    </section>
+
+    <!-- Коментарі -->
+    <section id="comments" class="comments">
+        <h2>Коментарі</h2>
+        <form class="comment-form" id="commentForm">
+            <textarea id="commentInput" placeholder="Напишіть ваш коментар тут..."></textarea>
+            <button type="button" id="addCommentBtn">Додати коментар</button>
+        </form>
+        <div class="comment-list" id="commentList">
+            <!-- Тут будуть з'являтися коментарі -->
+        </div>
+    </section>
+
+    <!-- Telegram бот -->
+    <section id="bot-link">
+        <h2>Зв'язок</h2>
+        <a href="https://t.me/heros_son_bot" target="_blank" class="bot-button">Ознайомитись з ботом</a>
+    </section>
+
+    <!-- Підвал -->
+    <footer>
+        <p>Власник: <a href="https://t.me/not_main_hero">@not_main_hero</a></p>
+        <p>Канал: <a href="https://t.me/NOT_MAIN_HER0">@NOT_MAIN_HER0</a></p>
+        <p>Телефон: <a href="tel:+380964208430">+38 (096) 420 84 30</a></p>
+    </footer>
+
+    <!-- Плаваюча кнопка -->
+    <button id="scrollToTop" class="scroll-to-top">⬆</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
