@@ -19,7 +19,8 @@
 
 ## Фото
 
+![msedge_3DophgRA1b](https://github.com/user-attachments/assets/5582a595-3a62-4d82-836d-3a5fa4082f52)
 
-![msedge_rTWSMQrZQS](https://github.com/user-attachments/assets/85675a42-abc4-4764-b381-5b8515986dbf)
-![msedge_lERiQ4VQG6](https://github.com/user-attachments/assets/78719d26-c5ce-4c05-8de8-38357f118fe7)
-![msedge_3DophgRA1b](https://github.com/user-attachments/assets/fa14ac94-955d-4b82-a9dd-b886a2f320d0)
+![msedge_lERiQ4VQG6](https://github.com/user-attachments/assets/f49e504f-5ea9-4f0b-8fc5-2c6f9a052d51)
+
+![msedge_rTWSMQrZQS](https://github.com/user-attachments/assets/a86052b3-ae02-42d4-9af0-4d7a98e68966)
